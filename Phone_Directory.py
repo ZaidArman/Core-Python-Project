@@ -1,3 +1,17 @@
+'''
+Phone Directory by Zaid Ullah
+
+The Phone Directory is a command-line application designed to facilitate efficient management of phone contacts. It enables users to perform various operations on their contacts, including adding, viewing, updating, and deleting contacts. The system incorporates file handling techniques to ensure the persistence of contact data between program runs.
+
+**Key Features:**
+Add Contact: Users can add a new contact by providing details such as first name, last name, phone number, email address, address, and street number. The system validates the input data to ensure its accuracy and integrity.
+View Phone Directory: Users can conveniently view the entire phone directory in a well-organized tabular format. The directory displays essential information about each contact, including their first name, last name, phone number, email address, address, and street number.
+Update Contact: Existing contacts can be easily updated by specifying the first name of the contact to be modified. Users can then modify various contact details, including the last name, phone number, email address, address, and street number. The system ensures proper validation of the updated data.
+Delete Contact: Users can remove a contact from the phone directory by specifying its first name. Upon deletion, the contact is permanently eliminated from the system, ensuring data accuracy.
+Call Contact: The system enables users to simulate a call to a specific contact by entering the first name of the desired contact. The application displays an appropriate message to indicate the initiation of the call.
+Save Contacts: Users can save the current set of contacts in the phone directory to a text file, allowing them to retrieve the contacts in future program executions. The contact data is stored in a comma-separated format, facilitating easy retrieval and management.
+'''
+
 import re
 from prettytable import PrettyTable
 
